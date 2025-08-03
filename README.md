@@ -1,6 +1,20 @@
 # ESO-Crafting-Calculator
-ESO Crafting Calculator 
-A rework of msa-mraz ESO crafting Calculator. All credit for the core logic and orignal UI goes to the orignal creator 'msamraz'. This Project is just an enhancement. I would like to give credit to where it is due. 
+
+Originally created by 'msamraz', all core logic and original UI.
+
+Karakuchi (@rydog89) applied updates and enhancements, including UI, enchantments, and set additions.
+
+This repository is intended for applying fixes to the tool for new updates. Please refer to the original if no fixes are currently needed here.
+
+## State of This Repository
+
+This repository is currently AHEAD by one fix.
+
+**03/08/2025 v1.62.1**
+
+- Updated jewelry improvement materials cost for Update 40, where jewelry improvements use the same upgrade cost as other gear types.
+
+## Update Log from Karakuchi
 
 **Summary of main improvements (v1.62 26/06/2025):**
 
