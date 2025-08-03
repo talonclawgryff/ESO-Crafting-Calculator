@@ -1166,10 +1166,7 @@ function calculateTotalMaterials()
           var impIdx = 1;
           for (impIdx = 1; impIdx <= improvementSelect.selectedIndex; impIdx++) {
             name = improvementMat[impIdx];
-            if (isJewelry)
-              count = impIdx;
-            else
-              count = improvementLevels[impIdx].materialCount;
+            count = improvementLevels[impIdx].materialCount;
             if (improvementMats[name] == null)
               improvementMats[name] = count*qty;
             else
@@ -1344,4 +1341,5 @@ function qtyChanged(itemIndex){
 function isNormalInteger(str) {
   var n = Math.floor(Number(str));
   return n !== Infinity && String(n) === str && n >= 0;
+
 }
